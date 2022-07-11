@@ -1,0 +1,61 @@
+@media screen and (max-width: 992px) {
+    /*about*/
+    .name-1 {
+        display: none;
+    }
+    .container-abt {
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-bottom: 140px;
+    }
+    #target {
+        margin: 0 auto;
+        border-left: 1px solid black;
+    }
+    /*job info*/
+    .container-job {
+        display: grid;
+        grid-template-columns: repeat(2, 300px);
+        justify-content: center;
+        align-content: center;
+        margin-bottom: 140px;
+        margin-left: auto;
+    }
+    .inner {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        justify-content: space-between;
+    }
+    .icon-job {
+        height: 45px;
+        width: 45px;
+        justify-self: center;
+        margin-bottom: 20px;
+        margin-right: 35px;
+        padding-bottom: 10px;
+    }
+    /*Chứng chỉ - Giải thưởng*/
+    .container-certi {
+        margin-bottom: 142px;
+        background-color: #f2f2f2;
+        padding-top: 50px;
+    }
+    .certi-inf1,
+    .certi-inf2,
+    .certi-inf3 {
+        display: grid;
+    }
+    .certi-img {
+        display: flex;
+        height: 150px;
+        width: 250px;
+    }
+    /*Dự án*/
+    .project {
+        margin-bottom: 142px;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        column-gap: 30px;
+        width: 1050px;
+    }
+}
